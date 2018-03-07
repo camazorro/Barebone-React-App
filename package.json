@@ -1,0 +1,51 @@
+{
+  "name": "barebones-react-app",
+  "version": "1.0.0",
+  "description": "Simple starting point for a React app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --profile --config ./webpack/webpack.prod.js",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camazorro/Barebones-React-App.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Babel",
+    "ESLint"
+  ],
+  "author": "Gerardo Renovales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camazorro/Barebones-React-App/issues"
+  },
+  "homepage": "https://github.com/camazorro/Barebones-React-App#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-dynamic-import-webpack": "^1.0.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "html-webpack-plugin": "^3.0.4",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0"
+  }
+}
