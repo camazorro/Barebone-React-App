@@ -24,8 +24,8 @@ module.exports = merge(common, {
   plugins: [
     new HtmlWebpackPlugin({
       title: ' React APP Development',
-      template: 'src/index.ejs'
+      template: 'src/template.ejs'
     }),
-    new webpack.HotModuleReplacementPlugin()    
+    new webpack.HotModuleReplacementPlugin()
   ]
 });

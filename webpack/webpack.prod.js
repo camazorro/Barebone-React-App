@@ -17,7 +17,7 @@ module.exports = merge(common, {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'React App',
-      template: 'src/index.ejs',
+      template: 'src/template.ejs',
       minify: {
         removeComments: true,
         collapseWhitespace: true,
