@@ -1,4 +1,4 @@
-Barebone React App
+Barebones React App
 =====================
 
 A minimal and light dev environment for ReactJS.
